@@ -10,7 +10,7 @@ data/cache/
 data/log/
 data/threadcache/
 data/template/
-
+source/plugin/
 # 排除临时文件
 data/download/
 data/plugindata/
