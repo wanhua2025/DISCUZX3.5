@@ -1,0 +1,54 @@
+# 排除 uc_server 文件夹
+uc_server/
+
+# 排除附件和图片目录
+data/attachment/
+data/avatar/
+
+# 排除缓存和日志文件
+data/cache/
+data/log/
+data/threadcache/
+data/template/
+
+# 排除临时文件
+data/download/
+data/plugindata/
+
+# 排除大文件（大于 50MB 的文件会在脚本中处理）
+# 这里排除一些常见的大文件类型
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar
+*.gz
+*.iso
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# 排除数据库备份文件
+*.sql
+*.sql.gz
+*.bak
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 排除 IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 排除其他临时文件
+*.tmp
+*.temp
+*.log
+
